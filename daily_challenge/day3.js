@@ -7,3 +7,14 @@ function reverseIt(str) {
   return rev_str;
 }
 reverseIt("fazilet");
+
+// for(i of str)
+function reverseItMe(s) {
+  let rev_s = "";
+  for (i of s) {
+    rev_s = i + rev_s;
+  }
+  console.log(rev_s);
+  return rev_s;
+}
+reverseItMe("I love you");
